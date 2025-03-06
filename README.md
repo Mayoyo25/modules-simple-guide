@@ -31,9 +31,16 @@ npm install
 npm run dev
 ```
 
-## Contribution
-Feel free to fork this repository and contribute by adding new projects or improving existing ones. 🚀
+## Follow & Work With Me
+If you enjoy my work and want to connect, collaborate, or hire me, you can reach out through the following platforms:
+
+- 🌍 [Website](https://mayoyo.site)
+- 🐦 [Twitter](https://twitter.com/FranklinMayoyo)
+- 📸 [Instagram](https://instagram.com/FranklinMayoyo)
+- 💼 [LinkedIn](https://www.linkedin.com/in/franklin-mayoyo)
+- 📝 [Dev.to](https://dev.to/franklinmayoyo)
+
+Let's build amazing things together! 🚀
 
 ## License
 MIT License
-

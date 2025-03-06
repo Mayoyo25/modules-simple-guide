@@ -27,15 +27,16 @@ npm install
 npm run dev
 ```
 
-## Adding a New NPM Project
-1. Navigate to the `npm/` folder.
-2. Create a new project folder: `mkdir <project-name>`
-3. Initialize a new npm project: `cd <project-name> && npm init -y`
-4. Install the required package(s): `npm install <package-name>`
-5. Start coding and document your work!
+## Follow & Work With Me
+If you enjoy my work and want to connect, collaborate, or hire me, you can reach out through the following platforms:
 
-## Contribution
-Feel free to add new npm projects, improve existing ones, or suggest interesting packages to explore. 🚀
+- 🌍 [Website](https://mayoyo.site)
+- 🐦 [Twitter](https://twitter.com/FranklinMayoyo)
+- 📸 [Instagram](https://instagram.com/FranklinMayoyo)
+- 💼 [LinkedIn](https://www.linkedin.com/in/franklin-mayoyo)
+- 📝 [Dev.to](https://dev.to/franklinmayoyo)
+
+Let's build amazing things together! 🚀
 
 ## License
 MIT License
