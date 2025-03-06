@@ -1,6 +1,0 @@
-[build]
-  command = "bash ignore-build.sh"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "18"

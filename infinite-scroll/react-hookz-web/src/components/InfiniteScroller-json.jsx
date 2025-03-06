@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { useIntersectionObserver } from '@react-hookz/web'; // Removed useAsyncAbortable if not needed
+import { useIntersectionObserver } from '@react-hookz/web'; 
 
 export function InfiniteScrollerJson() {
   const [items, setItems] = useState([]);

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useIntersectionObserver } from '@react-hookz/web';
+import {Navbar} from "../../../../Navbar"
 
 export function InfiniteScrollerPicsum() {
   const [images, setImages] = useState([]);
@@ -9,7 +10,7 @@ export function InfiniteScrollerPicsum() {
   const [error, setError] = useState(null);
   const loaderRef = useRef(null);
   
-  // Use a much lower threshold to start loading earlier
+  // Use a much lower threshold to start loading earlier.
   // This will trigger loading when the loader is still far from view
   const threshold = 0.05;
   // Cap to prevent excessive API usage
@@ -85,9 +86,9 @@ export function InfiniteScrollerPicsum() {
   }, [intersectionEntry?.isIntersecting, loading, hasMore]);
 
   return (
+    <>
+    <Navbar  title="React Hookz Infinite Scroll" sourcePath="react-hookz-web/jsx" />
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Infinite Image Gallery</h1>
-      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.map((image, index) => (
           <div key={`${image.id}-${index}`} className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
@@ -126,6 +127,6 @@ export function InfiniteScrollerPicsum() {
           </p>
         )}
       </div>
-    </div>
+    </div></>
   );
 }
