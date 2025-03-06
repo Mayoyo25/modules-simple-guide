@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-hookz/web": "^25.0.1",
+    "@tailwindcss/vite": "^4.0.11",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.0.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
