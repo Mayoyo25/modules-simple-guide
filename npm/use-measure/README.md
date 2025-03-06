@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# Smart Image Gallery with use-measure
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a **Smart Image Gallery** built with **React + TypeScript**, using `use-measure` from `@react-hookz/web` to create a responsive image layout that adjusts dynamically based on the container size.
 
-Currently, two official plugins are available:
+## Features
+- 📏 **Dynamic Resizing** – Adjusts image grid based on container width
+- 🖼 **Responsive Layout** – Adapts to different screen sizes
+- ⚡ **Fast & Lightweight** – Uses React hooks for optimal performance
+- 🎨 **Styled with TailwindCSS**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React** + **TypeScript**
+- [`@react-hookz/web`](https://www.npmjs.com/package/@react-hookz/web) (for `use-measure`)
+- TailwindCSS (for styling)
 
-## Expanding the ESLint configuration
+## Installation & Setup
+```sh
+# Clone the repository
+git clone https://github.com/Mayoyo25/modules-simple-guide.git
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Navigate to the project folder
+cd modules/npm/use-measure
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Usage
+1. Run the project and open it in the browser.
+2. Resize the window to see the gallery adjust dynamically.
+3. Add your own images to customize the gallery.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## Folder Structure
 ```
+modules/
+  ├── npm/
+  │   ├── use-measure/  # This project
+  │   │   ├── src/
+  │   │   ├── public/
+  │   │   ├── package.json
+  │   │   ├── README.md
+  │   │   ├── ...
+```
+
+## Contribution
+Feel free to fork this project and improve it! Submit a pull request with your changes. 🚀
+
+## License
+MIT License
+
