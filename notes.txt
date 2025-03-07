@@ -1,0 +1,7 @@
+Now address this as we make it a package (npm). Give all steps to achieving it(from creation to publishing it on npm plus ts support). Make things like cap optional, only the requirements for what we want to achieve are needed. Plus make it easier for user to decide on things like columns or allow fit available space by putting them in in where they fit most. Infinite scroll in it self should be optional. Like we are now making it an even better gallery. We can aslo split the codes for easir maintenance nad reusability, best practices Also address:. From the more info i will give you [1. Browser Compatibility
+2. Memory Management
+3. API Rate Limiting
+4. Scroll Restoration
+5. SEO Considerations
+6. Accessibility
+7. Error Recovery,... more]. In the most efficient way as a pro. Plus proper naming. Make just the what is essential a package like ignore the title infinite scroll etc.
